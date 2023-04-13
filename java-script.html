@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script</title>
+</head>
+
+<body>
+
+    <!-- java-script ne run karava mate tag 6 -->
+    <!-- <script></script> -->
+
+    <!-- java-script is ==> it is dicides how your website biheviyar. -->
+
+    <!-- clinat-side scripting lagange -->
+
+    <!-- dom ==> (document object modale) -->
+    <!-- document object is one type body -->
+    <!-- aane aavi rite darasavi sakay -->
+    <!-- obj.method() -->
+    <!-- obj enter ke body na uder lakava nu hoy  -->
+    <!-- method etle ke kai tame method vaparo 6o -->
+
+    <!-- aapde java-script ne 2 type rite call karvani sakay -->
+    <!-- 1. Internal Java-Script -->
+    <!-- 2. External Java-Script -->
+
+
+    <!-- aapde java-script ne 2 type method thi aapi sakay -->
+    <!-- 1. var.writer(''); -->
+    <!-- 2. var.attributename(''); -->
+
+    <!-- but attributename is id j rahe vu joyiye -->
+
+
+    <!-- Display ne 3 rit aapi sakay -->
+    <!-- 1. body -->
+    <!-- 2. console -->
+    <!-- 3. Any tags -->
+
+    <!-- Body, consale, any tags ne kevi rite aapavanu -->
+
+    <!-- 1. Body ==> document.writer('hemant'); -->
+    <!-- lakho to body par hemant print karine aave -->
+
+
+
+    <!-- 2. Console ==> console.log('hemant'); -->
+    <!-- lako to inspect na uder console ma lakhelu aave  -->
+
+    <!-- 3. Tags ==> document.getElementById('id name'); -->
+    <!-- lakho to id na tag par je lakhelu hoy e aave  -->
+
+
+    <h1 id="dem"> Hemant</h1>
+    <h1 id="gem"> Hemant</h1>
+
+    <h1 class="grm"> parth</h1>
+
+    <h1>devedra</h1>
+    <script>
+        // 1. body
+        // document yaani ke object
+        // .write yaani ke method
+        // ('') yaani ke model
+        // end ama hu jetla pan tag  use kari sku
+        document.write('hemant');
+        document.write('hrmsnefdv <u>feneifen</u>');
+        // iskr uder style ==> ?
+
+
+        // 2. console
+        // console yaani ke object
+        // .log yaani ke method
+        // ('') yaani ke model
+        // end ama hu jetla pan tag  use karis to jevu lakhelu hoy evu aave 
+        console.log('dfwefewfeff');
+        console.log('hrmsnefdv <u>feneifen</u>')
+
+        // console ma id na tag ne pan call karvi sakiye.
+        console.log(document.getElementById('dem'));
+
+
+
+        // 3. Tags
+        document.getElementById('dem');
+        // id na tage par lakhelu 6 pan biju text joyiyw to innerhtml and innertext use thay 6
+        // innerhtml ma koi pan tag use kari sakay
+        document.getElementById('gem').innerHTML = 'dev<i>en</i>dra';
+
+        // innertext ma khali text j lakhi sakay
+        document.getElementById('gem').innertext = 'dev<u>e </u>ndra';
+
+
+        // class pan aapi sakay
+        document.getElementsByClassName('grm')
+
+
+        // tag name thi pan aapi sakay
+        document.getElementsByTagName('h1')
+    </script>
+</body>
+
+</html>
